@@ -5,10 +5,10 @@
     "Daniel Sundy <dan@heliozilla.com>",
     "Helios Design Labs <hello@heliozilla.com>"
   ],
-  "description": "A (responsible) cross-browser scroll interceptor for Angular.js.",
-  "main": "helios-frame-runner.js",
+  "description": "A (responsible) cross-browser scroll intercepting directive for Angular.js.",
+  "main": "helios-scroller.js",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/heliosdesign/helios-scroller",
   "ignore": [
     "**/.*",
     "node_modules",
