@@ -1,0 +1,14 @@
+{
+  "name": "helios-scroller",
+  "version": "0.0.0",
+  "description": "",
+  "author": "dan@heliozilla.com",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-rename": "~1.0.0",
+    "gulp-replace": "~0.2.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-notify": "~0.4.5"
+  }
+}
