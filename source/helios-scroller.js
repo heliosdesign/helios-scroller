@@ -221,7 +221,7 @@
 
                             if (e.keyCode === 40 || e.keyCode === 32) {
                                 data.direction.current = -1;
-                                var delta = e.keyCode === 32 ? -100 : -20;
+                                var delta = e.keyCode === 32 ? -200 : -20;
                             } else if (e.keyCode === 38 ) {
                                 data.direction.current = 1;
                                 var delta = 20;
@@ -234,11 +234,12 @@
 
                             Utils.checkRange();
 
-                            if (e.keyCode === 32) {
-                                Utils.tween.set({y:$scope.scrollTotal}, {y:data.progress.rendered}, 500);
-                            } else {
-                                Utils.render($scope.scrollTotal);
-                            }
+                            Utils.render($scope.scrollTotal);
+
+                            // if (e.keyCode === 32) {
+                            //     Utils.tween.set({y:$scope.scrollTotal}, {y:data.progress.rendered}, 500);
+                            // } else {
+                            // }
                         }
                     }
 
